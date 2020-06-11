@@ -1,0 +1,95 @@
+/*--------------------------------------
+#pagetop
+--------------------------------------*/
+#pagetop {}
+
+#pagetop a {
+  display: block;
+  width: 100%;
+  color: #000;
+}
+
+#pagetop svg {
+  font-size: 2rem;
+  display: block;
+  margin: 0 auto
+}
+
+@media(max-width:1025px) {}
+
+/*--------------------------------------
+#footer
+--------------------------------------*/
+#footer {
+  background: #000;
+}
+
+#footer p,
+#footer a,
+#footer ul li a {
+  color: #fff;
+  font-size: .9rem
+}
+
+#footer .flex {
+  align-items: flex-start;
+}
+
+#footer .left,
+#footer .right {
+  width: 50%;
+}
+
+/*--- 右ブロック ---*/
+#footer .right {
+  justify-content: flex-start;
+}
+
+#footer .right>div {
+  width: 30%;
+}
+
+#footer .right ul li a {
+  display: block;
+  padding-bottom: 5px
+}
+
+/*--- 下ブロック ---*/
+#footer>.pc-wrap>div:last-child {
+  flex-flow: row-reverse;
+  margin: 2rem 0 0 0;
+  padding: 2rem 0 1rem 0;
+  border-top: 1px solid #fff
+}
+
+#footer>.pc-wrap>div:last-child ul li {
+  display: inline-block;
+  margin-right: 1rem
+}
+
+#footer small,
+#footer>.pc-wrap>div:last-child ul li a {
+  color: #d3d3d3;
+  font-size: .8rem
+}
+
+
+@media(max-width:1025px) {
+
+  #footer .left,
+  #footer .right {
+    width: 100%;
+  }
+
+  #footer .left {
+    margin-top: 1rem
+  }
+
+  #footer .right>div {
+    width: 50%;
+  }
+
+  #footer>.wrap>div:last-child {
+    flex-flow: column;
+  }
+}

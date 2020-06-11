@@ -1,0 +1,74 @@
+/*--------------------------------------
+#sidebar
+--------------------------------------*/
+
+#sidebar .news p.b,
+#sidebar .fb p.b {
+  font-size: 1.2rem;
+  padding: 0 0 0.5rem 0.5rem;
+  border-bottom: 2px solid #000;
+  margin: 0;
+}
+
+#sidebar .news ul li {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+}
+
+#sidebar .news ul li a {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+#sidebar .news ul li p {
+  margin: 0;
+}
+
+#sidebar .search li {
+  display: block;
+  width: 100%;
+  margin: 0 0 0.5rem;
+}
+
+#sidebar .search .prejudice-list li {
+  overflow: hidden;
+}
+
+#sidebar .search .prejudice-list li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+#sidebar .search .prejudice-list li a p {
+  border-radius: 0;
+  text-align: left;
+  width: 80%;
+}
+
+#sidebar .search .prejudice-list li a p+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+#sidebar .search.area .area-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#sidebar .search.area .area-list li {
+  width: 49%;
+}
+
+#sidebar .search.area .area-list li:nth-child(2n) {
+  margin-left: 2%;
+}
+
+/*-- レスポンシブ --*/
+@media (max-width: 1025px) {
+}

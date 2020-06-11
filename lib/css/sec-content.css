@@ -1,0 +1,25 @@
+/*--------------------------------------
+#footer-contact
+--------------------------------------*/
+#footer-contact {
+  background: url(../images/common/footer_bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+#footer-contact p.fff {
+  font-size: .9rem;
+  line-height: 1.6;
+  margin: 2rem 0
+}
+
+#footer-contact .flex {
+  justify-content: center;
+}
+
+#footer-contact .flex>div,
+#footer-contact .flex>a {
+  margin: 0 2rem;
+}
+
+@media(max-width:1025px) {}

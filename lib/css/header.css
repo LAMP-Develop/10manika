@@ -1,0 +1,31 @@
+/*--------------------------------------
+#header
+--------------------------------------*/
+
+#header {
+  width: 100%;
+  padding: .8rem;
+  border-bottom: 5px solid #000
+}
+
+#header .btn-01 {
+  margin-left: 2rem
+}
+
+@media(max-width:1025px) {
+  #header .logo-wrap {
+    width: 100%;
+  }
+
+  #header .logo-wrap a {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  #header .logo-wrap a img {
+    height: 40px;
+  }
+}

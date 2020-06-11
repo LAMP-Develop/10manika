@@ -1,0 +1,40 @@
+/*--------------------------------------
+#ranking
+--------------------------------------*/
+#ranking ul li {
+  position: relative;
+  margin-top: 3rem;
+}
+
+#ranking ul li::before {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  width: 100%;
+  top: -2.5rem;
+}
+
+#ranking ul li:nth-child(1)::before {
+  content: "No.1";
+  color: #d73a49;
+}
+
+#ranking ul li:nth-child(2)::before {
+  content: "No.2";
+  color: #c0e05c;
+}
+
+#ranking ul li:nth-child(3)::before {
+  content: "No.3";
+  color: #5ba1e8;
+}
+
+/*-- レスポンシブ --*/
+
+@media (max-width: 1025px) {
+  #ranking ul li::before {
+    text-align: left;
+  }
+}
