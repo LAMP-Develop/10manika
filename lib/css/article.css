@@ -151,7 +151,7 @@
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
-  border-bottom: solid 1px #eee
+  border-bottom: solid 1px #eee;
 }
 
 .property-detail-info li {
@@ -159,7 +159,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: nowrap;
-  margin-right: 1.5rem;;
+  margin-right: 1.5rem;
 }
 
 .property-detail-info li:nth-last-child() {
@@ -496,5 +496,12 @@
   .side .form-wrap button img {
     width: 15px;
     height: auto;
+  }
+
+  .article-list ul li .img-wrap {
+    width: 30%;
+  }
+  .article-list ul li .txt-wrap {
+    width: 70%;
   }
 }

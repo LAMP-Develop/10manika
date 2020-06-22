@@ -123,10 +123,9 @@ if ($data['info']['minutes'] != '') {
 </div>
 <?php endif; ?>
 <div class="send-btn-wrap">
-<a href="<?php echo $home_url; ?>/reserve/?names=<?php echo $data['buildingName'].'／'.$data['info']['floor'].'／'.$data['info']['space'].'坪'; ?>" class="send-btn">
-<img src="<?php echo $wp_url; ?>/lib/images/common/send.png" alt="お問い合わせ">
-<p>お問い合わせ・内覧希望</p>
-</a>
+<div class="btn-01">
+<a href="https://www.officebank.co.jp/ten-detail/?names=<?php echo $data['buildingName'].'／'.$data['info']['floor'].'／'.$data['info']['space'].'坪'; ?>" target="_blank">資料請求／お問い合わせ<i class="fas fa-arrow-circle-right"></i></a>
+</div>
 </div>
 </div>
 </section>
